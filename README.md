@@ -11,6 +11,10 @@ Restaurants can easily create a mobile ordering/rewards app just by uploading a 
 
 The app allows users to order with money or points and automatically generates the points value system. The app also has search, profile, and history capabilities.
 
+![Screenshot](app3.PNG)
+
+![Screenshot](app4.PNG)
+
 ### 2. Generate realistic AI food graphics to automatically start running ads and detect which graphics perform the best, allocating more funds towards those graphics.
 Restaurants can easily create Facebook ad campaigns by just providing a budget, promotion, and description of the food. Yupon will use the description to automatically generate a few professional pictures of the food. After that, Yupon integrates with the Meta Marketing/Ads API to start running ads that point to the rewards app. Using machine learning, Yupon can optimize to see which ad performs the best and allocate more funds towards those.
 
