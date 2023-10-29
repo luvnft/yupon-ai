@@ -14,6 +14,8 @@ Restaurants can easily create Facebook ad campaigns by just providing a budget, 
 
 Furthermore, Yupon can detect which placements perform the best (Stories, Reels, Feeds, Messenger), as well as using data on age, demographics, and interests to further optimize ad campaigns.
 
+![Screenshot](yuponexample1.PNG)
+
 # Tech Stack
 ### Web Dashboard for Businesses
 -Next.js 13
