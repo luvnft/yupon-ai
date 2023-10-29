@@ -1,0 +1,36 @@
+{
+  "name": "yupon-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^3.2.0",
+    "@edgestore/react": "^0.1.4",
+    "@edgestore/server": "^0.1.4",
+    "@google-cloud/vision": "^4.0.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "facebook-nodejs-business-sdk": "^18.0.2",
+    "firebase": "^10.5.2",
+    "form-data": "^4.0.0",
+    "mongoose": "^7.6.3",
+    "next": "14.0.0",
+    "openai": "^4.14.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.33",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
