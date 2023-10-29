@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Yupon AI 
+### Team: The Twins
+### Members: George Wang, Michael Wang, Jerry Chen (also a twin!)
 
-## Getting Started
+# Description
+Yupon AI is an AI marketing platform for locally-owned restaurants.
 
-First, run the development server:
+It has 2 distinct features:
+### 1. Upload a menu to automatically generate a mobile rewards points app.
+Restaurants can easily create a mobile ordering/rewards app just by uploading a picture of their menu. Yupon will use Google Cloud Vision's optical character recognition machine learning tool to automatically detect the menu items and generate a loyalty app based on that.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The app allows users to order with money or points and automatically generates the points value system. The app also has search, profile, and history capabilities.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Generate realistic AI food graphics to automatically start running ads and detect which graphics perform the best, allocating more funds towards those graphics.
+Restaurants can easily create Facebook ad campaigns by just providing a budget, promotion, and description of the food. Yupon will use the description to automatically generate a few professional pictures of the food. After that, Yupon integrates with the Meta Marketing/Ads API to start running ads that point to the rewards app. Using machine learning, Yupon can optimize to see which ad performs the best and allocate more funds towards those.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Furthermore, Yupon can detect which placements perform the best (Stories, Reels, Feeds, Messenger), as well as using data on age, demographics, and interests to further optimize ad campaigns.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Screenshot](yuponexample1.PNG)
 
-## Learn More
+# Tech Stack
+### Web Dashboard for Businesses
+-Next.js 13
 
-To learn more about Next.js, take a look at the following resources:
+-Google Cloud Vision OCR
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-OpenAI DALL-E API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-Meta/Facebook Ads API
 
-## Deploy on Vercel
+-Auth0
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-MongoDB
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-Google Cloud Storage
+
+-Tailwind CSS
+
+### Mobile App
+-Reactive Native/Expo
+
+-Auth0
+
+-React-Redux
