@@ -86,8 +86,10 @@ export default function Home() {
                 </div>
                 <div class="md:w-1/2 rounded-2xl p-5">
                   <img
-                    src="https://via.placeholder.com/600x400"
-                    alt="Mobile App Screenshot"
+                    src="https://raw.githubusercontent.com/georgekingprojects/yupon-ai/main/yuponexample1.PNG"
+                    alt="Screenshot"
+                    width={600}
+                    height={400}
                     class="w-full h-auto rounded-lg"
                   />
                 </div>
@@ -101,17 +103,7 @@ export default function Home() {
               <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 mb-8 md:mb-0">
                   <div class="bg-turquoise-500 rounded-lg p-8 text-center text-white">
-                    <svg
-                      class="w-16 h-16 mx-auto mb-4"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                    </svg>
+                    <img src="https://cdn.discordapp.com/attachments/1167827877224534166/1168214031044194414/IMG_9061.png?ex=6550f319&is=653e7e19&hm=ca7534532a79789ea82a0846d017c18e5dd7ddb490e24345e99b064f68846cc7&" />
                     <h3 class="text-2xl font-bold mb-4">Mobile Ordering</h3>
                     <p class="text-gray-800">
                       Allow your customers to order from your restaurant
@@ -121,7 +113,7 @@ export default function Home() {
                 </div>
                 <div class="md:w-1/3 mb-8 md:mb-0">
                   <div class="bg-turquoise-500 rounded-lg p-8 text-center text-white">
-                    <svg
+                    {/*<svg
                       class="w-16 h-16 mx-auto mb-4"
                       fill="none"
                       stroke="currentColor"
@@ -131,7 +123,8 @@ export default function Home() {
                       viewBox="0 0 24 24"
                     >
                       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                    </svg>
+      </svg>*/}
+                    <img src="https://cdn.discordapp.com/attachments/1167827877224534166/1168214033296535712/IMG_9065.png?ex=6550f319&is=653e7e19&hm=506e53ae86fb8ea2f18fd1c30acce4e0476cac332ee105364f95fa03e494915f&" />
                     <h3 class="text-2xl font-bold mb-4">Rewards Program</h3>
                     <p class="text-gray-800">
                       Reward your loyal customers with points that they can
@@ -141,18 +134,7 @@ export default function Home() {
                 </div>
                 <div class="md:w-1/3 mb-8 md:mb-0">
                   <div class="bg-turquoise-500 rounded-lg p-8 text-center text-white">
-                    <svg
-                      class="w-16 h-16 mx-auto mb-4"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 20h9"></path>
-                      <path d="M16 5l-4 14L8 9l-4 6"></path>
-                    </svg>
+                    <img src="https://raw.githubusercontent.com/georgekingprojects/yupon-ai/main/yuponexample1.PNG" />
                     <h3 class="text-2xl font-bold mb-4">Ad Campaigns</h3>
                     <p class="text-gray-800">
                       Create ad campaigns with automatically generated pictures
