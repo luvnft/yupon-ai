@@ -31,7 +31,7 @@ export default function Menu() {
   }, [user]);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center bg-green-100 justify-center min-h-screen py-2">
       {user && (
         <>
           <div className="flex items-center justify-between w-full px-4">
@@ -52,7 +52,7 @@ export default function Menu() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
             {menuItems.map((item) => (
               <div className="bg-white rounded-lg shadow-lg p-6" key={item._id}>
-                <div className="relative w-full h-64">
+                <div className="relative w-full h-64 rounded-sm pb-2 rounded-b-sm">
                   <img
                     src={item.image}
                     alt={item.name}

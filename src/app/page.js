@@ -29,9 +29,9 @@ export default function Home() {
   }, [user]);
 
   return (
-    <main className="bg-green-400 flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="bg-green-300 flex min-h-screen flex-col items-center justify-between p-24">
       <div className="flex items-center justify-between w-full px-4">
-        <a href="/dashboard" className="ml-4 text-gray-600">
+        <a href="/dashboard" className="ml-4 text-green-300">
           Dashboard
         </a>
         <h1 className="text-3xl font-bold text-gray-900 text-center flex-1">
@@ -146,7 +146,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section class="bg-turquoise-500 py-20">
+          <section class="bg-turquoise-500 pt-20">
             <div class="container mx-auto px-4">
               <h2 class="text-3xl font-bold mb-8 text-center ">
                 Ready to Get Started?

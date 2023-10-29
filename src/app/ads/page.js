@@ -35,7 +35,7 @@ export default function Ads() {
   }, [user]);
 
   return (
-    <div className="flex flex-col items-center  min-h-screen py-2">
+    <div className="flex flex-col items-center bg-green-100 min-h-screen py-2">
       {user && (
         <>
           <div className="flex items-center justify-between w-full px-4">
@@ -53,36 +53,41 @@ export default function Ads() {
               )}
             </div>
           </div>
-          <div>
-            <h3>Create some ads</h3>
-            <form>
-              <label htmlFor="foodDescription">Food Description</label>
-              <input
-                type="text"
-                className="form-control mb-2 mr-sm-2 mb-sm-0 w-1/2 px-3 py-2 placeholder-gray-400 text-gray-700 bg-white rounded text-base border border-gray-400 shadow-none outline-none focus:outline-none focus:ring"
-                id="foodDescription"
-                value={foodDescription}
-                onChange={(e) => setFoodDescription(e.target.value)}
-              />
-              <br />
-              <label htmlFor="promotion">Promotion</label>
-              <input
-                type="text"
-                className="form-control mb-2 mr-sm-2 mb-sm-0 w-1/2 px-3 py-2 placeholder-gray-400 text-gray-700 bg-white rounded text-base border border-gray-400 shadow-none outline-none focus:outline-none focus:ring"
-                id="promotion"
-                value={promotion}
-                onChange={(e) => setPromotion(e.target.value)}
-              />
-              <br />
-              <label htmlFor="dailyBudget">Daily Budget</label>
-              <input
-                type="number"
-                className="form-control mb-2 mr-sm-2 mb-sm-0 w-1/2 px-3 py-2 placeholder-gray-400 text-gray-700 bg-white rounded text-base border border-gray-400 shadow-none outline-none focus:outline-none focus:ring"
-                id="dailyBudget"
-                value={dailyBudget}
-                onChange={(e) => setDailyBudget(e.target.value)}
-              />
-              <br />
+          <div className="bg-white shadow-green-400 shadow-xl p-12 rounded-lg my-auto">
+            <h3 className="font-bold pb-6">Create Some Ads</h3>
+            <form className="flex flex-col">
+              <div className="flex flex-row">
+                <label htmlFor="foodDescription">Food Description</label>
+                <input
+                  type="text"
+                  className="form-control mb-2 mr-sm-2 mb-sm-0 w-1/2 px-3 py-2 placeholder-gray-400 text-gray-700 bg-white rounded text-base border border-gray-400 shadow-none outline-none focus:outline-none focus:ring"
+                  id="foodDescription"
+                  value={foodDescription}
+                  onChange={(e) => setFoodDescription(e.target.value)}
+                />
+              </div>
+              <div className="flex flex-row">
+                <label htmlFor="promotion">Promotion</label>
+                <input
+                  type="text"
+                  className="form-control mb-2 mr-sm-2 mb-sm-0 w-1/2 px-3 py-2 placeholder-gray-400 text-gray-700 bg-white rounded text-base border border-gray-400 shadow-none outline-none focus:outline-none focus:ring"
+                  id="promotion"
+                  value={promotion}
+                  onChange={(e) => setPromotion(e.target.value)}
+                />
+              </div>
+              <div className="flex flex-row">
+                <label htmlFor="dailyBudget" className="float-left">
+                  Daily Budget
+                </label>
+                <input
+                  type="number"
+                  className="form-control float-right mb-2 mr-sm-2 mb-sm-0 w-1/2 px-3 py-2 placeholder-gray-400 text-gray-700 bg-white rounded text-base border border-gray-400 shadow-none outline-none focus:outline-none focus:ring"
+                  id="dailyBudget"
+                  value={dailyBudget}
+                  onChange={(e) => setDailyBudget(e.target.value)}
+                />
+              </div>
             </form>
             <button
               className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded"
