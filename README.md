@@ -17,14 +17,24 @@ Furthermore, Yupon can detect which placements perform the best (Stories, Reels,
 # Tech Stack
 ### Web Dashboard for Businesses
 -Next.js 13
+
 -Google Cloud Vision OCR
+
 -OpenAI DALL-E API
--Meta/Facebooke Ads API
+
+-Meta/Facebook Ads API
+
 -Auth0
+
 -MongoDB
+
 -Google Cloud Storage
+
 -Tailwind CSS
+
 ### Mobile App
 -Reactive Native/Expo
+
 -Auth0
+
 -React-Redux
